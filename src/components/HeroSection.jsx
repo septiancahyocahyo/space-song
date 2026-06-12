@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-const TOTAL_FRAMES = 96;
+const TOTAL_FRAMES = 240;
 
 export default function HeroSection() {
   const canvasRef = useRef(null);

@@ -1,5 +1,5 @@
 // Gallery section using the scroll animation frames as gallery images
-const galleryFrames = [1, 12, 24, 36, 48, 60, 72, 84, 96].map(n => ({
+const galleryFrames = [1, 12, 24, 36, 48, 60, 72, 84, 96, 120, 144, 168, 192, 216, 240].map(n => ({
   id: n,
   src: `/captures/ezgif-frame-${String(n).padStart(3, '0')}.jpg`,
   label: `Frame ${n}`,
